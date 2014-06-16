@@ -25,6 +25,7 @@
         'environment': 'local'
       }).deliver(function(configuration) {
         console.log(configuration);
+        window.configuration = configuration;
       });
     </script>
 
